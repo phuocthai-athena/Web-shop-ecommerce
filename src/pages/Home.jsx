@@ -12,8 +12,6 @@ import productData from "../assets/fake-data/products";
 import banner from "../assets/images/banner.png";
 
 const Home = () => {
-  // console.log(heroSliderData);
-  console.log(productData.getProducts(4));
   return (
     <Helmet title="Home">
       {/* hero slider*/}
